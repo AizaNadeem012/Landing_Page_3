@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #AB939E, #A1AEC1);
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 70px;
+   
+}
+
+.main{
+    height: 80vh;
+    width: 60vw;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: 400px;
+    /* display: flex; */
+    
+   /* display: flex;
+   flex-direction: column; */
+   
+   
+}
+.text{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.inner-content{
+    height: 66vh;
+    width: 58vw;
+    background: linear-gradient(to right, #c9b6bf, #A1AEC1);
+     margin-top: 20px;
+    border-radius: 15px; 
+    margin-left: 15px;
+    display: flex;
+   align-items: center;
+   
+}
+
+
+.h1{
+    margin-left: 20px;
+    align-items: center;
+    top: 70%;
+    margin-right: 280px;
+   
+}
+a{
+   bottom: -70px;
+   display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-right: 70px;
+   margin-right: 60px;
+   color: black;
+   gap: 60px;
+   text-decoration: none;
+
+ 
+}
+.text1{
+    height: 30vh;
+    width: 40vw;
+   margin-left: 20px;
+   margin-top: -50px;
+
+}
+
+.text1{
+    color: #000000;
+    /* box-shadow: 10px 10px 20px rgba(170, 72, 72, 0.3); */
+}
+.one{
+    font-weight: 100;
+    font-size:50px;
+}
+
+.two{
+    font-weight: 600;
+    font-size:50px;
+  
+}
+
+.img{
+    height: 60vh;
+    width: 30vw;
+    /* background-color: black; */
+    /* margin-right: 20px; */
+    object-fit: cover;
+    position: absolute;
+   background-image: url(mine.png);
+   background-size: cover;
+   margin-left: 440px;
+   margin-top: -90px;
+   
+
+}
+.image{
+    background-size: contain;
+
+    
+}
+p{
+    margin-top:30px;
+}
+button{
+    margin-top:30px;
+    width: 15vw;
+    height:7vh;
+    border: none;
+    border-radius: 1220px;
+    font-size: 18px;
+    box-shadow: 4px 4px 4px 0 rgb(87, 86, 86);
+}
+.page{
+    position: absolute;
+    display: inline-block; /* Inline-block display dena zaroori hai for transform */
+    transform: rotate(-90deg);
+    top: 360px;
+    font-size:60px;
+    margin-left: 200px;
+}
